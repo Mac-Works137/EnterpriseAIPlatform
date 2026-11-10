@@ -1,0 +1,1014 @@
+# Enterprise AI Platform - Corpus Inventory
+
+
+## azure-compute (125 documents)
+
+- **Agent bindings for Python in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-agent-bindings
+- **App settings reference for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings
+- **Automate resource deployment for your function app in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code
+- **AZFW0108: Extension bundle not restored prior to build**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/errors-diagnostics/msbuild-sdk-rules/azfw0108
+- **AZFW0109: Generated project should not be built**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/errors-diagnostics/msbuild-sdk-rules/azfw0109
+- **AZFW0110: FunctionsEnableWorkerIndexing is deprecated**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/errors-diagnostics/msbuild-sdk-rules/azfw0110
+- **AZFW0111: Azure Functions worker package not referenced**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/errors-diagnostics/msbuild-sdk-rules/azfw0111
+- **Azure Blob storage bindings for Azure Functions overview**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
+- **Azure Blob storage input binding for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-input
+- **Azure Blob storage output binding for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-output
+- **Azure Blob storage trigger for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger
+- **Azure CLI Samples**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-cli-samples
+- **Azure Container Apps hosting of Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-container-apps-hosting
+- **Azure Cosmos DB trigger and bindings for Azure Functions overview**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2
+- **Azure Event Grid bindings for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-grid
+- **Azure Event Hubs trigger and bindings for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-hubs
+- **Azure Event Hubs trigger for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-hubs-trigger
+- **Azure Functions binding expressions and patterns**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-expressions-patterns
+- **Azure Functions Consumption plan hosting (legacy)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/consumption-plan
+- **Azure Functions custom handlers**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-custom-handlers
+- **Azure Functions deployment slots**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-deployment-slots
+- **Azure Functions developer guide**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference
+- **Azure Functions developer reference guide for Python apps**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python
+- **Azure Functions diagnostics overview**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-diagnostics
+- **Azure Functions error handling and retries**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages
+- **Azure Functions extension bundles**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/extension-bundles
+- **Azure Functions Flex Consumption plan hosting**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/flex-consumption-plan
+- **Azure Functions Go developer reference**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-go
+- **Azure Functions hosted skills**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-hosted-skills
+- **Azure Functions hosted skills reference**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-hosted-skills-reference
+- **Azure Functions hosting options**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale
+- **Azure Functions HTTP trigger**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger
+- **Azure Functions Java developer guide**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-java
+- **Azure Functions local runtime and tools reference**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference
+- **Azure Functions networking options**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-networking-options
+- **Azure Functions Node.js developer reference**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-node
+- **Azure Functions on Kubernetes with KEDA**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-kubernetes-keda
+- **Azure Functions PowerShell developer guide**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-powershell
+- **Azure Functions Premium plan**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan
+- **Azure Functions scenarios**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-scenarios
+- **Azure Functions triggers and bindings**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings
+- **Azure Functions with Aspire**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/aspire-integration
+- **Azure Queue storage trigger and bindings for Azure Functions overview**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-queue
+- **Azure Service Bus bindings for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-service-bus
+- **Azure Tables bindings for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-table
+- **Best practices for reliable Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices
+- **Code and test Azure Functions locally**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-local
+- **Compare Azure Functions runtime versions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-versions
+- **Concurrency in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-concurrency
+- **Configure connections to remote services in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/manage-connections
+- **Connect Azure Functions to Azure Cosmos DB using Visual Studio Code**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-add-output-binding-cosmos-db-vs-code
+- **Connect Azure Functions to Azure Storage using Visual Studio Code**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-add-output-binding-storage-queue-vs-code
+- **Connect functions to Azure services using bindings**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/add-bindings-existing-function
+- **Connect functions to Azure Storage using Visual Studio**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-add-output-binding-storage-queue-vs
+- **Continuous delivery with Azure Pipelines**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-azure-devops
+- **Continuous deployment for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment
+- **Create a function app in a local Linux container**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-container-registry
+- **Create a function app in the Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-function-app-portal
+- **Create and manage function apps in the Flex Consumption plan**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/flex-consumption-how-to
+- **Create and run dynamic workflows with Azure Functions hosted skills**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-hosted-skills-dynamic-workflows-how-to
+- **Create function app resources in Azure using PowerShell**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/create-resources-azure-powershell
+- **Create serverless APIs in Visual Studio using Azure Functions and API Management integration**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/openapi-apim-integrate-visual-studio
+- **Create your first containerized Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-deploy-container
+- **Create your first function with Java and Eclipse**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-maven-eclipse
+- **Create your first Java function in Azure using IntelliJ**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij
+- **Dedicated hosting plans for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/dedicated-plan
+- **Deploy serverless Java apps with Quarkus on Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-quarkus
+- **Deploy to Azure Functions by using GitHub Actions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions
+- **Deployment technologies in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-deployment-technologies
+- **Develop Azure Functions by using Visual Studio Code**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code
+- **Develop Azure Functions locally by using Core Tools**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
+- **Develop Azure Functions locally by using the Azure Functions CLI (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-cli-develop-local
+- **Develop Azure Functions using Visual Studio**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
+- **Develop legacy C# class library functions using Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-class-library
+- **Differences between the isolated worker model and the in-process model for .NET on Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/dotnet-isolated-in-process-differences
+- **Dynamic workflows in Azure Functions hosted skills**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-hosted-skills-dynamic-workflows
+- **Enable streaming execution logs in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/streaming-logs
+- **Estimating consumption-based costs**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-consumption-costs
+- **Event-driven scaling in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/event-driven-scaling
+- **Get started with Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-get-started
+- **Guide for running C# Azure Functions in the isolated worker model**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/dotnet-isolated-process-guide
+- **host.json reference for Azure Functions 2.x and later**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json
+- **How to configure monitoring for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring
+- **How to disable functions in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/disable-function
+- **How to target Azure Functions runtime versions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/set-runtime-version
+- **How to use a secured storage account with Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/configure-networking-how-to
+- **Linux container support in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/container-concepts
+- **Manage your function app**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings
+- **Manually run a non HTTP-triggered function**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-manually-run-non-http
+- **MCP prompt trigger for Azure Functions (public preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp-prompt-trigger
+- **MCP resource trigger for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp-resource-trigger
+- **MCP tool trigger for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp-tool-trigger
+- **Migrate apps from Azure Functions version 3.x to version 4.x**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/migrate-version-3-version-4
+- **Migrate AWS Lambda workloads to Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/migration/migrate-aws-lambda-to-azure-functions
+- **Migrate C# apps from the in-process model to the isolated worker model**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/migrate-dotnet-to-isolated-model
+- **Migrate Consumption plan apps to the Flex Consumption plan**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/migration/migrate-plan-consumption-to-flex
+- **Model Context Protocol bindings for Azure Functions overview**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp
+- **Monitor executions in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-monitoring
+- **Package-based deployment for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/deployment-zip-push
+- **Quickstart: Build a scalable web API using Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-azure-developer-cli
+- **Quickstart: Build an event-driven AI app with Azure Functions hosted skills**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/scenario-hosted-skills
+- **Quickstart: Build MCP Apps using Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/scenario-mcp-apps
+- **Quickstart: Create a function in Azure from the command line**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/how-to-create-function-azure-cli
+- **Quickstart: Create and deploy Azure Functions resources from an ARM template**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-resource-manager
+- **Quickstart: Create and deploy Azure Functions resources using Bicep**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-bicep
+- **Quickstart: Create and deploy function code to Azure using Visual Studio Code**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/how-to-create-function-vs-code
+- **Quickstart: Create your first C# function in Azure using Visual Studio**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio
+- **Recover from a bad Flex Consumption plan app deployment**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-rollback-deployments
+- **Securing Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts
+- **Self-hosted remote MCP server on Azure Functions (public preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/self-hosted-mcp-servers
+- **Site update strategies in Flex Consumption**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/flex-consumption-site-updates
+- **Storage considerations for Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations
+- **Supported languages in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/supported-languages
+- **Troubleshoot Python errors in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/recover-python-functions
+- **Tutorial: Create a function in Java with an Event Hub trigger and an Azure Cosmos DB output binding**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-hub-cosmos-db
+- **Tutorial: Create a function to integrate with Azure Logic Apps**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-twitter-email
+- **Update language stack versions in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/update-language-versions
+- **Use AI tools and models in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-ai-enabled-apps
+- **Use dependency injection in .NET Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection
+- **Use Java and Gradle to create and publish a function to Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-java-gradle
+- **Use managed connectors in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-connectors-overview
+- **Use OpenTelemetry with Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/opentelemetry-howto
+- **What is Azure Functions?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview
+- **Work with access keys in Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/function-keys-how-to
+- **Work with containers and Azure Functions**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-custom-container
+
+## azure-database (125 documents)
+
+- **Active geo-replication**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
+- **Add a database to a failover group using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/add-database-to-failover-group-cli
+- **Add an Azure SQL Database elastic pool to a failover group using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/add-elastic-pool-to-failover-group-cli
+- **An overview of Azure SQL Database and SQL Managed Instance security capabilities**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview
+- **Analyze database watcher monitoring data (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-analyze
+- **Application development overview - Azure SQL Database & Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/develop-overview
+- **Application patterns and development strategies for SQL Server on Azure Virtual Machines**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/application-patterns-development-strategies
+- **Authorize database access to Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage
+- **Automate management with the Windows SQL Server IaaS Agent extension**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management
+- **Automated backups in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview
+- **Availability through redundancy - Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla-local-zone-redundancy
+- **Azure CLI samples for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/az-cli-script-samples-content-guide
+- **Azure CLI samples for Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/az-cli-script-samples-content-guide
+- **Azure portal query editor for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/query-editor
+- **Azure PowerShell samples for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/powershell-script-content-guide
+- **Azure Private Link for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview
+- **Azure Private Link for Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview
+- **Azure Resource Manager templates for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/arm-templates-content-guide
+- **Azure Resource Manager templates for Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/arm-templates-content-guide
+- **Azure SQL Database and Azure SQL Managed Instance connect and query articles**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-content-reference-guide
+- **Azure SQL Database IP firewall rules**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure
+- **Azure SQL Database server roles for permission management**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/security-server-roles
+- **Azure SQL glossary of terms**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/glossary-terms
+- **Back up an Azure SQL single database to an Azure storage container using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/backup-database-cli
+- **Business continuity and HADR for SQL Server on Azure VMs**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview
+- **Business continuity in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview
+- **Checklist: Best practices for SQL Server on Azure VMs**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist
+- **Configure a failover group for a group of databases in Azure SQL Database using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/setup-geodr-failover-group-cli
+- **Configure a license-free standby replica for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/standby-replica-how-to-configure
+- **Configure active geo-replication for a pooled database in Azure SQL Database using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/setup-geodr-failover-pool-cli
+- **Configure active geo-replication for a single database in Azure SQL Database using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/setup-geodr-failover-database-cli
+- **Configure and manage content reference - Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/how-to-content-reference-guide
+- **Configure and manage Microsoft Entra authentication with Azure SQL**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure
+- **Configure public endpoints in Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/public-endpoint-configure
+- **Connectivity architecture**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connectivity-architecture
+- **Connectivity architecture for Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/connectivity-architecture-overview
+- **Connectivity settings**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connectivity-settings
+- **Copilot sample prompts to use with Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/copilot/copilot-prompts-list
+- **Copy a database in Azure SQL Database to a new logical server using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/copy-database-to-new-server-cli
+- **Create a single database and configure a firewall rule using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/create-and-configure-database-cli
+- **Create and configure a watcher (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-manage
+- **Create and manage servers and single databases in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-manage
+- **Database watcher alerts (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-alerts
+- **Database watcher data collection and datasets (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-data
+- **Database watcher FAQ (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-faq
+- **Deploy Azure SQL Database for free**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer
+- **Designing globally available services using Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/designing-cloud-solutions-for-disaster-recovery
+- **Disaster recovery guidance - Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance
+- **Disaster recovery strategies for applications using Azure SQL Database elastic pools**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-strategies-for-applications-with-elastic-pool
+- **DTU-based purchasing model overview**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu
+- **Elastic pools help you manage and scale multiple databases in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview
+- **Enable Microsoft Entra authentication for SQL Server on Azure VMs**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/configure-azure-ad-authentication-for-sql-vm
+- **Failover groups overview & best practices (Azure SQL Database)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db
+- **Frequently asked questions about Microsoft Copilot in Azure with Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/copilot/copilot-azure-sql-faq
+- **High availability and disaster recovery checklist - Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-disaster-recovery-checklist
+- **Hyperscale secondary replicas**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale-replicas
+- **Hyperscale service tier**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale
+- **Import a BACPAC file into a database in SQL Database using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/import-from-bacpac-cli
+- **Intelligent applications and AI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/ai-artificial-intelligence-intelligent-applications
+- **Long-term retention backups - Azure SQL Database and Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/long-term-retention-overview
+- **Manage rolling upgrades of cloud applications by using SQL Database active geo-replication**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/manage-application-rolling-upgrade
+- **Managed identities in Microsoft Entra for Azure SQL**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-azure-ad-user-assigned-managed-identity
+- **Microsoft Copilot in Azure with Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/copilot/copilot-azure-sql-overview
+- **Microsoft Entra authentication for Azure SQL**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-overview
+- **Microsoft Entra service principals with Azure SQL**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-service-principal
+- **Migrate SQL Server workloads (FAQ)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/modernization
+- **Migration overview: SQL Server to Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/data-migration/sql-server/database/overview
+- **Migration overview: SQL Server to Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/data-migration/sql-server/managed-instance/overview
+- **Migration overview: SQL Server to SQL Server on Azure VMs**
+  - URL: https://learn.microsoft.com/en-us/data-migration/sql-server/virtual-machines/overview
+- **Monitor and scale a single database in Azure SQL Database using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/monitor-and-scale-database-cli
+- **Monitor Azure SQL workloads with database watcher (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-overview
+- **Move a database in SQL Database in a SQL elastic pool using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/move-database-between-elastic-pools-cli
+- **Multi-model capabilities**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/multi-model-features
+- **Multitenant SaaS database tenancy patterns**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/saas-tenancy-app-design-patterns
+- **Overview of business continuity with Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/business-continuity-high-availability-disaster-recover-hadr-overview
+- **Overview of SQL Server on Linux Azure Virtual Machines**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/linux/sql-server-on-linux-vm-what-is-iaas-overview
+- **Overview of the Managed Instance link**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/managed-instance-link-feature-overview
+- **Plan and manage costs for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/cost-management
+- **Ports beyond 1433 for ADO.NET 4.5**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/adonet-v12-develop-direct-route-ports
+- **Provision a Linux virtual machine running SQL Server in the Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/linux/sql-vm-create-portal-quickstart
+- **Quickstart: Configure a point-to-site connection to Azure SQL Managed Instance from on-premises**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/point-to-site-p2s-configure
+- **Quickstart: Configure an Azure VM to connect to Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/connect-vm-instance-configure
+- **Quickstart: Connect to and query a database with .NET and C# in Visual Studio**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-dotnet-visual-studio
+- **Quickstart: Create a Hyperscale database in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/hyperscale-database-create-quickstart
+- **Quickstart: Create a server-level firewall rule in Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-create-server-level-portal-quickstart
+- **Quickstart: Create a single database - Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart
+- **Quickstart: Create a single database in Azure SQL Database using an ARM template**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-arm-template-quickstart
+- **Quickstart: Create a watcher to monitor Azure SQL (preview)**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-quickstart
+- **Quickstart: Create Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/instance-create-quickstart
+- **Quickstart: Create SQL Server on a Windows virtual machine in the Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-portal-quickstart
+- **Quickstart: Create SQL Server on Azure VM with PowerShell**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-powershell-quickstart
+- **Quickstart: Create SQL Server VM using an ARM template**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/create-sql-vm-resource-manager-template
+- **Quickstart: Import a BACPAC file to a database in Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/database-import
+- **Quickstart: Restore a database to Azure SQL Managed Instance with SSMS**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/restore-sample-database-quickstart
+- **Quickstart: Use .NET (C#) to query a database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-dotnet-core
+- **Quickstart: Use Golang to query a database in Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-go
+- **Quickstart: Use Node.js to query a database in Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-nodejs
+- **Quickstart: Use PHP to query a database in Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-php
+- **Quickstart: Use Python to query a database in Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-python
+- **Quickstart: Use Ruby to query a database in Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-ruby
+- **Quickstart: Use SSMS to connect to and query Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-ssms
+- **Quickstart: Use the Azure portal query editor to query Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal
+- **Quickstart: Use Visual Studio Code to connect and query Azure SQL Database or Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-vscode
+- **Restore a database from a backup in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups
+- **Restore a single database in Azure SQL Database to an earlier point in time using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/restore-database-cli
+- **Scale an elastic pool in Azure SQL Database using the Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/scale-pool-cli
+- **Serverless compute tier for Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview
+- **Stop and start an instance - Azure SQL Managed Instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/instance-stop-start-how-to
+- **T-SQL differences between SQL Server and Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/transact-sql-tsql-differences-sql-server
+- **Try Azure SQL Managed Instance for free**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/free-offer
+- **Tutorial: Design a relational database in Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/design-first-database-tutorial
+- **Tutorial: Design a relational database in Azure SQL Database C# and ADO.NET**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/design-first-database-csharp-tutorial
+- **Use Java and JDBC with Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-java
+- **Use PowerShell to create a managed instance**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/scripts/create-configure-managed-instance-powershell
+- **Use PowerShell to create a single database and configure a server-level firewall rule**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/create-and-configure-database-powershell
+- **Use read-only replicas to offload read-only query workloads**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/read-scale-out
+- **vCore purchasing model - Azure SQL Database**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore
+- **What is a logical server in Azure SQL Database?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/logical-servers
+- **What is a single database in Azure SQL Database?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-overview
+- **What is Azure SQL Database?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview
+- **What is Azure SQL Managed Instance?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview
+- **What is SQL Server on Azure Windows Virtual Machines?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview
+- **What's new in Azure SQL Database?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/database/doc-changes-updates-release-notes-whats-new
+- **What's new in Azure SQL Managed Instance?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/doc-changes-updates-release-notes-whats-new
+- **What's new with SQL Server on Azure Virtual Machines?**
+  - URL: https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/doc-changes-updates-release-notes-whats-new
+
+## azure-security (125 documents)
+
+- **Agentless container posture in Defender CSPM**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-agentless-containers
+- **AI agent shared responsibility model**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai-agent
+- **AI threat protection in Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-threat-protection
+- **Alerts for AI services**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-ai-workloads
+- **Artificial intelligence (AI) shared responsibility model**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai
+- **Azure AI security best practices**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices
+- **Azure customer data protection**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data
+- **Azure data encryption at rest**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest
+- **Azure data security and encryption best practices**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices
+- **Azure database security checklist**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist
+- **Azure encryption overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview
+- **Azure facilities, premises, and physical security**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/physical-security
+- **Azure identity management and access control best practices**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices
+- **Azure identity management security overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview
+- **Azure information system components and boundaries**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-components
+- **Azure infrastructure availability**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-availability
+- **Azure infrastructure integrity**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-integrity
+- **Azure infrastructure monitoring**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-monitoring
+- **Azure infrastructure security**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure
+- **Azure Integrated HSM overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-integrated-hardware-security-module-overview
+- **Azure network architecture**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-network
+- **Azure network security best practices**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices
+- **Azure network security overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview
+- **Azure operational security best practices**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-best-practices
+- **Azure operational security overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-overview
+- **Azure production network**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/production-network
+- **Azure ransomware protection features and resources**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-features-resources
+- **Azure security best practices and patterns**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/best-practices-and-patterns
+- **Azure security logging and auditing**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/log-audit
+- **Azure security management and monitoring overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/management-monitoring-overview
+- **Azure SQL Database security features**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-sql
+- **Azure threat protection**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/threat-detection
+- **Azure Virtual Machines security overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/virtual-machines-overview
+- **Backup and restore plan to protect against ransomware**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware
+- **Best practices for Azure Service Fabric security**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/service-fabric-best-practices
+- **Best practices for protecting secrets**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices
+- **Best practices for securing PaaS databases in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-sql
+- **Best practices for securing PaaS web and mobile applications by using Azure App Service**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-app-services
+- **Best practices for securing PaaS web and mobile applications by using Azure Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-storage
+- **Code samples to enable and configure Microsoft Antimalware for Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/antimalware-code-samples
+- **Connect AWS accounts to Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-aws
+- **Connect your Azure subscriptions**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/connect-azure-subscription
+- **Connect your GCP project to Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-gcp
+- **Connect your non-Azure machines to Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-machines
+- **Connect your non-Azure servers to Microsoft Defender for Cloud with Defender for Endpoint**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/onboard-machines-with-defender-for-endpoint
+- **Customer Lockbox for Microsoft Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-overview
+- **Customer Lockbox for Microsoft Azure alternate email notifications**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-alternative-email
+- **Customer Lockbox for Microsoft Azure frequently asked questions**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-faq
+- **Data and AI security dashboard**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/data-aware-security-dashboard-overview
+- **Data encryption models**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-models
+- **Defender for Cloud in Defender portal**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-portal/defender-for-cloud-defender-portal
+- **Defender for Servers**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-servers-overview
+- **Deploy a virtual machine with Azure Integrated HSM enabled**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/how-to-deploy-azure-integrated-hardware-security-module
+- **Deploy secure applications on Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/secure-deploy
+- **Design secure applications on Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/secure-design
+- **Detect and respond to ransomware attacks**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-detect-respond
+- **Develop secure applications on Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/secure-develop
+- **Discover generative AI workloads**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/identify-ai-workload-model
+- **Double encryption**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/double-encryption
+- **Enable just-in-time access**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-just-in-time-access
+- **Enable threat protection for AI services**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-onboarding
+- **End-to-end security in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/end-to-end
+- **Estimate costs with the Microsoft Defender for Cloud cost calculator**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/cost-calculator
+- **Explore risks to pre-deployment generative AI artifacts**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/explore-ai-risk
+- **Firmware measured boot and host attestation**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/measured-boot-host-attestation
+- **Firmware security**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/firmware
+- **Getting started with the Threat Modeling Tool**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started
+- **How to choose the right Azure key management solution**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management-choose
+- **Hypervisor security on the Azure fleet**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/hypervisor
+- **Identify and remediate attack paths in Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/how-to-manage-attack-path
+- **Improve ransomware defenses with Azure Firewall Premium**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-protection-with-azure-firewall
+- **Incident response overview for Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/incident-response-overview
+- **Incidents - a reference guide**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/incidents-reference
+- **Introduction to Azure security**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/overview
+- **Introduction to Microsoft Defender for Containers**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-containers-introduction
+- **Isolation in the Azure public cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/isolation-choices
+- **Key management in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management
+- **Manage and respond to security alerts**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/manage-respond-alerts
+- **Manage security incidents in Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/incidents
+- **Management and operation of the Azure production network**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-operations
+- **Microsoft Antimalware for Azure Cloud Services and Virtual Machines (VMs)**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/antimalware
+- **Microsoft Defender for Cloud alerts and incidents in Microsoft Defender XDR**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-integration-365
+- **Microsoft Threat Modeling Tool**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
+- **Microsoft Threat Modeling Tool mitigations**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-mitigations
+- **Microsoft Threat Modeling Tool threats**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats
+- **Overview - About data security posture management**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-data-security-posture
+- **Overview - AI security posture management**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-security-posture
+- **Overview of Defender for App Service to protect your Azure App Service web apps and APIs**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-app-service-introduction
+- **Overview of Microsoft Defender for Cloud DevOps security**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction
+- **Overview of Microsoft Defender for Databases**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-databases-overview
+- **Overview of Microsoft Defender for Key Vault**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-key-vault-introduction
+- **Overview of Microsoft Defender for Resource Manager**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-resource-manager-introduction
+- **Penetration testing**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/pen-testing
+- **Planning and operations guide**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-planning-and-operations-guide
+- **Platform code integrity**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/code-integrity
+- **Platform integrity and security overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/platform
+- **Prepare for a ransomware attack**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-prepare
+- **Project Cerberus**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/project-cerberus
+- **Ransomware protection in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-protection
+- **Regulatory compliance standards in Microsoft Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-regulatory-compliance-standards
+- **Review security findings in the AKS security dashboard**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/cluster-security-dashboard
+- **Review security recommendations**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/review-security-recommendations
+- **Secure Boot**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/secure-boot
+- **Secure development best practices on Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/secure-dev-overview
+- **Secure score in Defender for Cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/secure-score-security-controls
+- **Secure your Microsoft Entra identity infrastructure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity
+- **Securing PaaS deployments**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments
+- **Security alerts - a reference guide**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-reference
+- **Security alerts and incidents**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-overview
+- **Security best practices for IaaS workloads in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/iaas
+- **Security services and technologies in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies
+- **Services that support customer-managed keys in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-customer-managed-keys-support
+- **Set up continuous export in the Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/continuous-export
+- **Shared responsibility in the cloud**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility
+- **Start to plan multicloud protection**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/plan-multicloud-security-get-started
+- **Stream alerts to monitoring solutions**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/export-to-siem
+- **Threat Modeling Tool feature overview**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-feature-overview
+- **Threat Modeling Tool Releases**
+  - URL: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-releases
+- **Use cloud asset inventory**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/asset-inventory
+- **Vulnerability management for containers**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/agentless-vulnerability-assessment-azure
+- **What is Cloud Security Posture Management (CSPM)**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management
+- **What is Microsoft Defender for Cloud?**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction
+- **What is Microsoft Defender for Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction
+- **What's new in Defender for Cloud features**
+  - URL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes
+- **Zero Trust security in Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust
+
+## azure-storage (125 documents)
+
+- **Access control lists (ACLs) in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control
+- **Access control model in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control-model
+- **Access tiers for blob data**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview
+- **Archive a blob**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob
+- **Assign an Azure role for access to blob data**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access
+- **Authorize access to blobs by using Microsoft Entra ID**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory
+- **Authorize SSH File Transfer Protocol (SFTP) access to blobs using Microsoft Entra ID**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-support-entra-id-based-access
+- **Azure Blob Storage lifecycle management overview**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview
+- **Azure Blob Storage lifecycle management policy structure**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-structure
+- **Azure Blob Storage monitoring data reference**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage-reference
+- **Azure Data Lake Storage hierarchical namespace**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace
+- **Azure Data Lake Storage query acceleration**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-query-acceleration
+- **Azure services that support Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-supported-azure-services
+- **Best practices for using Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices
+- **Best practices for using blob access tiers**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices
+- **Blob rehydration from the archive tier**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview
+- **Blob snapshots**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/snapshots-overview
+- **Blob Storage feature support in Azure Storage accounts**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-feature-support-in-storage-accounts
+- **Blob versioning**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview
+- **BlobFuse and Linux file systems compared**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-compare-linux-file-system
+- **Choose how to authorize access to blob data in the Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-data-operations-portal
+- **Configure a lifecycle management policy**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-configure
+- **Cost estimate: Move data out of archive storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/cost-estimate-archive-retrieval-set-tier
+- **Cost estimate: Retrieve data from archive storage for analysis**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/cost-estimate-archive-retrieval-copy-blob
+- **Cost estimate: Upload and access data from multiple regions**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/cost-estimate-multi-region-access
+- **Create a blob container with .NET**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create
+- **Create a blob container with Java**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create-java
+- **Create a blob container with JavaScript or TypeScript**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create-javascript
+- **Create a blob container with Python**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create-python
+- **Create a BlobFuse configuration file**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-configure
+- **Create a storage account to use with Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/create-data-lake-storage-account
+- **Delete and restore a blob container with .NET**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-delete
+- **Delete and restore a blob container with Java**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-delete-java
+- **Delete and restore a blob container with JavaScript or TypeScript**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-delete-javascript
+- **Delete and restore a blob container with Python**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-delete-python
+- **Download a blob with .NET**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-download
+- **Download a blob with Java**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-download-java
+- **Download a blob with JavaScript or TypeScript**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-download-javascript
+- **Encryption scopes for Blob storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/encryption-scope-overview
+- **Estimate the cost of archiving data**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/archive-cost-estimation
+- **Estimate the cost of using AzCopy to transfer blobs**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/azcopy-cost-estimation
+- **Estimate the cost of using Azure Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blob-storage-estimate-costs
+- **Host a static website in Azure Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-how-to
+- **Hot partitions in Azure Blob Storage: detection, monitoring, and mitigation**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-mitigate-hot-partitions
+- **How to use the BlobFuse2 command set**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-commands
+- **How to use the BlobFuse2 mount command**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-commands-mount
+- **Introduction to Azure Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+- **Introduction to Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction
+- **Known issues with Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-known-issues
+- **Latency in Blob storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-latency
+- **Lifecycle management performance characteristics**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-performance-characteristics
+- **Lifecycle management policies that delete blobs**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-delete
+- **Lifecycle management policies that transition blobs between tiers**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-access-tiers
+- **Lifecycle management policy FAQ**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-faq
+- **List blobs with .NET**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-list
+- **List blobs with Java**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-list-java
+- **List blobs with JavaScript**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-list-javascript
+- **Manage and find Azure Blob data with blob index tags**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs
+- **Manage concurrency in Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/concurrency-manage
+- **Manage directories and files in Azure Data Lake Storage by using Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-cli
+- **Manage directories and files in Azure Data Lake Storage with PowerShell**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell
+- **Map a custom domain to an Azure Blob Storage endpoint**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name
+- **Map each REST operation to a price**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/map-rest-apis-transaction-categories
+- **Migrate from on-premises HDFS store to Azure Storage with Azure Data Box**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster
+- **Migrate on-premises Hadoop data to Azure Data Lake Storage with WANdisco LiveData Platform for Azure**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/migrate-gen2-wandisco-live-data-platform
+- **Monitor Azure Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage
+- **Monitor lifecycle management policy runs**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-monitor
+- **Mount an Azure Blob Storage container on Linux with BlobFuse**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-mount-container
+- **Multi-protocol access on Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-multi-protocol-access
+- **Open source platforms that support Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-supported-open-source-platforms
+- **Optimize Azure Blob Storage costs with smart tier**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-smart
+- **Optimize blob partitions**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-blob-partitions
+- **Optimize costs for Blob storage with reserved capacity**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-reserved-capacity
+- **Overview: Remediating anonymous read access for blob data**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-overview
+- **Performance checklist for Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist
+- **Performance checklist for Blob Storage developers**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist-developers
+- **Premium block blob storage accounts**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-block-blob-premium
+- **Premium tier for Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/premium-tier-for-data-lake-storage
+- **Quickstart: Azure Blob Storage client library for .NET**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet
+- **Quickstart: Azure Blob Storage client library for Java SE**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-java
+- **Quickstart: Azure Blob Storage client library for Node.js**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-nodejs
+- **Quickstart: Azure Blob Storage client library for Python**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-python
+- **Quickstart: Create, download, and list blobs with Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-cli
+- **Quickstart: Integrate an Azure Storage account with Azure Content Delivery Network**
+  - URL: https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn
+- **Quickstart: Manage blobs with JavaScript v12 SDK in a browser**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/quickstart-blobs-javascript-browser
+- **Quickstart: Quarkus extension for Azure Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-java-quarkus
+- **Quickstart: Route storage events to web endpoint with Azure CLI**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-quickstart
+- **Quickstart: Route storage events to web endpoint with PowerShell**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-quickstart-powershell
+- **Quickstart: Upload, download, and list blobs with the Azure portal**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
+- **Quickstart: Use Azure Storage Explorer to create a blob**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/quickstart-storage-explorer
+- **Reacting to Blob storage events**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview
+- **Remediate anonymous read access to blob data (Azure Resource Manager deployments)**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-prevent
+- **Scalability and performance targets for Blob storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/scalability-targets
+- **Scalability targets for premium block blob storage accounts**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/scalability-targets-premium-block-blobs
+- **Security recommendations for Blob storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/security-recommendations
+- **Set a blob's access tier**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage
+- **Soft delete for blobs**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview
+- **Static website hosting in Azure Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website
+- **Store business-critical blob data with immutable storage in a write once, read many (WORM) state**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview
+- **Streaming versus caching mode for BlobFuse mounts**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-streaming-versus-caching
+- **The Azure Blob File System driver (ABFS): a dedicated Azure Storage driver for Hadoop**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-abfs-driver
+- **Tutorial: Azure Data Lake Storage, Azure Databricks, and Spark**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark
+- **Tutorial: Extract, transform, and load data by using Azure HDInsight**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-tutorial-extract-transform-load-hive
+- **Tutorial: Host a static website on Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host
+- **Tutorial: Implement the data lake capture pattern to update a Databricks Delta table**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-events
+- **Tutorial: Upload and analyze a file with Azure Functions and Blob Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blob-upload-function-trigger
+- **Upload a blob with .NET**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload
+- **Upload a blob with JavaScript or TypeScript**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-javascript
+- **Upload a block blob with Java**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-java
+- **Use .NET to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-dotnet
+- **Use .NET to manage directories and files in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-dotnet
+- **Use Azure CLI to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-cli
+- **Use Azure Storage Explorer to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-explorer-acl
+- **Use Azure Storage Explorer to manage directories and files in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-explorer
+- **Use DistCp to copy data between Azure Storage Blobs and Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-distcp
+- **Use Java to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-java
+- **Use Java to manage directories and files in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-java
+- **Use JavaScript SDK in Node.js to manage directories and files in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-javascript
+- **Use PowerShell to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-powershell
+- **Use Python to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-python
+- **Use Python to manage directories and files in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-python
+- **Use the Azure Data Lake Storage URI (ABFS)**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction-abfs-uri
+- **Use the Azure portal to manage ACLs in Azure Data Lake Storage**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-azure-portal
+- **What is Azure Blob storage?**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview
+- **What is BlobFuse?**
+  - URL: https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-what-is

@@ -1,0 +1,44 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.ignore
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Generated datasets and vector stores
+data/raw/
+data/processed/
+data/chroma/
+.chroma/
+data/analytics/*.db
+
+# Logs
+logs/
+*.log
+agent_testing.log
+
+# Evaluation temporary files
+evaluation/__pycache__/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak

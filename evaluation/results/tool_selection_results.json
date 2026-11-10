@@ -1,0 +1,1324 @@
+{
+  "metrics": {
+    "evaluated_queries": 100,
+    "exact_matches": 100,
+    "exact_match_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "results": [
+    {
+      "id": "TS093",
+      "category": "no_tool",
+      "query": "Can you explain what a database is in simple terms?",
+      "expected_tools": [],
+      "actual_tools": [],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS094",
+      "category": "no_tool",
+      "query": "What is the difference between structured and unstructured data in general?",
+      "expected_tools": [],
+      "actual_tools": [],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS001",
+      "category": "retrieval",
+      "query": "How does Azure Blob Storage lifecycle management work?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS002",
+      "category": "retrieval",
+      "query": "What are the different access tiers available in Azure Blob Storage?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS003",
+      "category": "retrieval",
+      "query": "How can I assign an Azure role to access blob data?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS004",
+      "category": "retrieval",
+      "query": "Explain how BlobFuse mounts Azure Blob Storage containers on Linux.",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS005",
+      "category": "retrieval",
+      "query": "How can I estimate the cost of using Azure Blob Storage?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS006",
+      "category": "retrieval",
+      "query": "What are the main components of Azure Functions?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS007",
+      "category": "retrieval",
+      "query": "How do I configure an Azure Function application?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS008",
+      "category": "retrieval",
+      "query": "Explain the different authorization options for Azure Blob Storage.",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS009",
+      "category": "retrieval",
+      "query": "What security recommendations apply to Azure Storage accounts?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS010",
+      "category": "retrieval",
+      "query": "How does Azure SQL Database handle authentication?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS011",
+      "category": "retrieval",
+      "query": "Explain Azure SQL database backup and restore options.",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS012",
+      "category": "retrieval",
+      "query": "How can I configure network security for Azure SQL?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS013",
+      "category": "retrieval",
+      "query": "What is the purpose of managed identities in Azure?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS014",
+      "category": "retrieval",
+      "query": "How can Azure Key Vault be used to protect secrets?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS015",
+      "category": "retrieval",
+      "query": "Explain role-based access control in Microsoft Azure.",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS016",
+      "category": "retrieval",
+      "query": "What are the differences between hot, cool, and archive blob access tiers?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS017",
+      "category": "retrieval",
+      "query": "How can I secure an Azure Storage account against unauthorized access?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS018",
+      "category": "retrieval",
+      "query": "What is Azure Functions scaling behavior?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS019",
+      "category": "retrieval",
+      "query": "How do I authorize access to blob data through the Azure portal?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS020",
+      "category": "retrieval",
+      "query": "What are the available deployment options for Azure Functions?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS021",
+      "category": "retrieval",
+      "query": "How does Azure SQL Database differ from SQL Server?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS022",
+      "category": "retrieval",
+      "query": "Explain encryption options for Azure Storage data.",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS023",
+      "category": "retrieval",
+      "query": "How can I configure private endpoints for Azure services?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS024",
+      "category": "retrieval",
+      "query": "What are the recommended practices for managing Azure storage costs?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS025",
+      "category": "retrieval",
+      "query": "How can I monitor Azure Functions?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS026",
+      "category": "web",
+      "query": "What are the latest developments in generative AI?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS027",
+      "category": "web",
+      "query": "Find recent announcements about Google's Gemini models.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS028",
+      "category": "web",
+      "query": "What are the latest developments in OpenAI's AI models?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS029",
+      "category": "web",
+      "query": "Find recent news about Microsoft Azure services.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS030",
+      "category": "web",
+      "query": "What are the current trends in enterprise AI adoption?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS031",
+      "category": "web",
+      "query": "Find recent research papers about retrieval-augmented generation.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS032",
+      "category": "web",
+      "query": "What are the latest cybersecurity threats reported this month?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS033",
+      "category": "web",
+      "query": "Find current pricing information for popular LLM API providers.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS034",
+      "category": "web",
+      "query": "What are the latest developments in agentic AI frameworks?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS035",
+      "category": "web",
+      "query": "Find recent benchmarks comparing leading open-source language models.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS038",
+      "category": "web",
+      "query": "What are the latest developments in cloud computing security?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS039",
+      "category": "web",
+      "query": "Find current industry reports on the adoption of RAG systems.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS040",
+      "category": "web",
+      "query": "What new features have recently been announced for LangChain?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS036",
+      "category": "web",
+      "query": "What are the current versions of popular Python machine learning libraries?",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS041",
+      "category": "sql",
+      "query": "Calculate total revenue for each sales region.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS042",
+      "category": "sql",
+      "query": "Which product generated the highest total revenue?",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS043",
+      "category": "sql",
+      "query": "Show the total quantity sold for each product category.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS044",
+      "category": "sql",
+      "query": "Calculate the average unit price for each product category.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS045",
+      "category": "sql",
+      "query": "Which region has the highest sales revenue?",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS046",
+      "category": "sql",
+      "query": "How many orders are present in the sales database?",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS047",
+      "category": "sql",
+      "query": "List the top five products by revenue.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS048",
+      "category": "sql",
+      "query": "Compare total revenue across all product categories.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS049",
+      "category": "sql",
+      "query": "Find the total number of units sold in each region.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS050",
+      "category": "sql",
+      "query": "What is the total revenue generated by the West region?",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS051",
+      "category": "sql",
+      "query": "Find the product with the highest average unit price.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS052",
+      "category": "sql",
+      "query": "Show the number of orders for each product category.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS053",
+      "category": "sql",
+      "query": "Calculate total revenue for each product.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS054",
+      "category": "sql",
+      "query": "Which sales region has the lowest total revenue?",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS055",
+      "category": "sql",
+      "query": "Find the average quantity per order for each product.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS056",
+      "category": "sql",
+      "query": "Show the top three regions by quantity sold.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS057",
+      "category": "sql",
+      "query": "Calculate total sales revenue across the entire database.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS058",
+      "category": "sql",
+      "query": "Compare the number of orders across regions.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS059",
+      "category": "sql",
+      "query": "Which product category has the largest total quantity sold?",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS060",
+      "category": "sql",
+      "query": "Find the minimum and maximum unit prices in the sales table.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS061",
+      "category": "python",
+      "query": "Calculate the mean of these numbers: 12, 18, 25, 35, 60.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS062",
+      "category": "python",
+      "query": "Find the median of 10, 20, 30, 40, 50.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS063",
+      "category": "python",
+      "query": "Calculate the population standard deviation of 5, 10, 15, 20, 25.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS064",
+      "category": "python",
+      "query": "Find the maximum value in this list: 14, 27, 9, 42, 31.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS065",
+      "category": "python",
+      "query": "Calculate the minimum of 18, 7, 24, 3, 15.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS066",
+      "category": "python",
+      "query": "Calculate the sum of 125, 250, 375, and 500.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS067",
+      "category": "python",
+      "query": "How many numbers are in this list: 4, 8, 12, 16, 20, 24?",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS068",
+      "category": "python",
+      "query": "Calculate the percentage change from 100 to 145.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS069",
+      "category": "python",
+      "query": "Find the average of 23, 45, 67, 89, and 101.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS070",
+      "category": "python",
+      "query": "Calculate the population standard deviation of 100, 110, 120, 130, 140.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS071",
+      "category": "python",
+      "query": "What is the median of 3, 8, 12, 15, 19, 22?",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS072",
+      "category": "python",
+      "query": "Calculate the percentage increase from 250 to 325.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS073",
+      "category": "python",
+      "query": "Find the total of 15.5, 20.5, 30, and 34.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS074",
+      "category": "python",
+      "query": "Find the smallest number in 91, 34, 76, 12, 58.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS075",
+      "category": "python",
+      "query": "Calculate the mean of 2.5, 3.5, 4.5, and 5.5.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS076",
+      "category": "multi_tool",
+      "query": "Explain Azure Blob Storage lifecycle management and find recent recommendations for optimizing storage costs.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS077",
+      "category": "multi_tool",
+      "query": "Explain Azure Functions scaling using Microsoft documentation and compare it with recent industry guidance.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS078",
+      "category": "multi_tool",
+      "query": "Find Microsoft's documented Azure Storage security practices and verify them against recent external security recommendations.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS079",
+      "category": "multi_tool",
+      "query": "Explain Azure SQL security features and find recent reports about database security threats.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS080",
+      "category": "multi_tool",
+      "query": "Retrieve the documented Azure Blob Storage access tiers and find current external guidance on choosing between them.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS081",
+      "category": "multi_tool",
+      "query": "Calculate total revenue by region from the sales database, then calculate the mean of those regional revenues.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS082",
+      "category": "multi_tool",
+      "query": "Find revenue for each product category in the database and calculate the population standard deviation of those category revenues.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS083",
+      "category": "multi_tool",
+      "query": "Retrieve the total sales revenue for each region and calculate the percentage change from the lowest-revenue region to the highest-revenue region.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS084",
+      "category": "multi_tool",
+      "query": "Calculate total revenue by product, then find the average revenue across all products.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS085",
+      "category": "multi_tool",
+      "query": "Find the quantities sold by each region and calculate their median.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS086",
+      "category": "multi_tool",
+      "query": "Explain how Azure Blob Storage lifecycle management works and find the latest Microsoft guidance on this feature.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS087",
+      "category": "multi_tool",
+      "query": "Use Azure documentation to explain managed identities, then research recent external best practices for their use.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS088",
+      "category": "multi_tool",
+      "query": "Find total revenue by category and compare the highest and lowest category revenues using percentage change.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS089",
+      "category": "multi_tool",
+      "query": "Retrieve Azure SQL backup documentation and find recent external recommendations for database backup strategies.",
+      "expected_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "retrieve_documents",
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS090",
+      "category": "multi_tool",
+      "query": "Calculate revenue by region from the database, then report the mean and standard deviation of the regional revenue values.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS091",
+      "category": "no_tool",
+      "query": "Hello! How are you?",
+      "expected_tools": [],
+      "actual_tools": [],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS092",
+      "category": "no_tool",
+      "query": "Thank you for your help.",
+      "expected_tools": [],
+      "actual_tools": [],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS095",
+      "category": "no_tool",
+      "query": "Explain the concept of machine learning in simple terms.",
+      "expected_tools": [],
+      "actual_tools": [],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS096",
+      "category": "sql",
+      "query": "Calculate the total revenue generated by the North region.",
+      "expected_tools": [
+        "query_sales_database"
+      ],
+      "actual_tools": [
+        "query_sales_database"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS097",
+      "category": "retrieval",
+      "query": "How can I estimate the cost of Azure Blob Storage using Microsoft's documentation?",
+      "expected_tools": [
+        "retrieve_documents"
+      ],
+      "actual_tools": [
+        "retrieve_documents"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS098",
+      "category": "web",
+      "query": "Find recent news about major cloud service outages.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS099",
+      "category": "python",
+      "query": "Calculate the percentage decrease from 500 to 400.",
+      "expected_tools": [
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS100",
+      "category": "multi_tool",
+      "query": "Find total revenue by region, calculate the average regional revenue, and identify which regions are above that average.",
+      "expected_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "actual_tools": [
+        "query_sales_database",
+        "calculate_statistics"
+      ],
+      "exact_match": true,
+      "status": "success"
+    },
+    {
+      "id": "TS037",
+      "category": "web",
+      "query": "Find recent announcements about NVIDIA AI hardware.",
+      "expected_tools": [
+        "web_search_tool"
+      ],
+      "actual_tools": [
+        "web_search_tool"
+      ],
+      "exact_match": true,
+      "status": "success"
+    }
+  ]
+}

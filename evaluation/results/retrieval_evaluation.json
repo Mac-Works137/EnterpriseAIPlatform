@@ -1,0 +1,1510 @@
+{
+  "benchmark_query_count": 20,
+  "candidate_k": 30,
+  "final_k": 5,
+  "metric_unit": "unique source documents",
+  "summary": {
+    "dense": {
+      "query_count": 20,
+      "mean_recall_at_5": 0.775,
+      "mean_reciprocal_rank": 0.7675,
+      "mean_latency_ms": 24.94063761550933,
+      "p95_latency_ms": 34.43220816552639
+    },
+    "hybrid": {
+      "query_count": 20,
+      "mean_recall_at_5": 0.725,
+      "mean_reciprocal_rank": 0.685,
+      "mean_latency_ms": 53.27554591931403,
+      "p95_latency_ms": 63.791084103286266
+    },
+    "hybrid_reranked": {
+      "query_count": 20,
+      "mean_recall_at_5": 0.7083333333333334,
+      "mean_reciprocal_rank": 0.81,
+      "mean_latency_ms": 259.0454294346273,
+      "p95_latency_ms": 351.0307092219591
+    }
+  },
+  "per_query_results": [
+    {
+      "id": "storage_01",
+      "category": "azure-storage",
+      "query": "How can I reduce Azure Blob Storage costs by moving infrequently accessed data to cheaper tiers?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 3,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-smart",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob"
+          ],
+          "retrieved_titles": [
+            "Best practices for using blob access tiers",
+            "Azure Blob Storage lifecycle management overview",
+            "Access tiers for blob data",
+            "Optimize Azure Blob Storage costs with smart tier",
+            "Archive a blob"
+          ],
+          "latency_ms": 16.26808336004615
+        },
+        "hybrid": {
+          "recall_at_5": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-smart",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-performance-characteristics"
+          ],
+          "retrieved_titles": [
+            "Access tiers for blob data",
+            "Optimize Azure Blob Storage costs with smart tier",
+            "Archive a blob",
+            "Best practices for using blob access tiers",
+            "Lifecycle management performance characteristics"
+          ],
+          "latency_ms": 47.49454092234373
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-reserved-capacity",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-smart",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob"
+          ],
+          "retrieved_titles": [
+            "Best practices for using blob access tiers",
+            "Access tiers for blob data",
+            "Optimize costs for Blob storage with reserved capacity",
+            "Optimize Azure Blob Storage costs with smart tier",
+            "Archive a blob"
+          ],
+          "latency_ms": 193.3724582195282
+        }
+      }
+    },
+    {
+      "id": "storage_02",
+      "category": "azure-storage",
+      "query": "How do I automatically move blobs to another access tier based on their age?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-structure"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.2,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-access-tiers",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-structure"
+          ],
+          "retrieved_titles": [
+            "Set a blob's access tier",
+            "Lifecycle management policies that transition blobs between tiers",
+            "Upload a blob with .NET",
+            "Blob versioning",
+            "Azure Blob Storage lifecycle management policy structure"
+          ],
+          "latency_ms": 26.569791603833437
+        },
+        "hybrid": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.2,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-access-tiers",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-faq",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-smart",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-structure"
+          ],
+          "retrieved_titles": [
+            "Lifecycle management policies that transition blobs between tiers",
+            "Set a blob's access tier",
+            "Lifecycle management policy FAQ",
+            "Optimize Azure Blob Storage costs with smart tier",
+            "Azure Blob Storage lifecycle management policy structure"
+          ],
+          "latency_ms": 56.28725001588464
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0.0,
+          "relevant_found": 0,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-access-tiers",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-smart",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-faq"
+          ],
+          "retrieved_titles": [
+            "Set a blob's access tier",
+            "Blob versioning",
+            "Lifecycle management policies that transition blobs between tiers",
+            "Optimize Azure Blob Storage costs with smart tier",
+            "Lifecycle management policy FAQ"
+          ],
+          "latency_ms": 211.81583404541016
+        }
+      }
+    },
+    {
+      "id": "storage_03",
+      "category": "azure-storage",
+      "query": "How can I archive a blob and later restore it for access?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/snapshots-overview"
+          ],
+          "retrieved_titles": [
+            "Archive a blob",
+            "Blob rehydration from the archive tier",
+            "Quickstart: Azure Blob Storage client library for .NET",
+            "Set a blob's access tier",
+            "Blob snapshots"
+          ],
+          "latency_ms": 16.629499848932028
+        },
+        "hybrid": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-faq",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/snapshots-overview"
+          ],
+          "retrieved_titles": [
+            "Archive a blob",
+            "Set a blob's access tier",
+            "Access tiers for blob data",
+            "Lifecycle management policy FAQ",
+            "Blob snapshots"
+          ],
+          "latency_ms": 40.34600034356117
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/snapshots-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview"
+          ],
+          "retrieved_titles": [
+            "Archive a blob",
+            "Blob rehydration from the archive tier",
+            "Blob snapshots",
+            "What is Azure SQL Managed Instance?",
+            "Access tiers for blob data"
+          ],
+          "latency_ms": 219.460042193532
+        }
+      }
+    },
+    {
+      "id": "storage_04",
+      "category": "azure-storage",
+      "query": "How can an application authenticate with Microsoft Entra ID and obtain permission to access blob data?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-data-operations-portal",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet"
+          ],
+          "retrieved_titles": [
+            "Authorize access to blobs by using Microsoft Entra ID",
+            "Assign an Azure role for access to blob data",
+            "Choose how to authorize access to blob data in the Azure portal",
+            "Blob versioning",
+            "Quickstart: Azure Blob Storage client library for .NET"
+          ],
+          "latency_ms": 34.43220816552639
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/security-recommendations",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-support-entra-id-based-access",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-dotnet"
+          ],
+          "retrieved_titles": [
+            "Authorize access to blobs by using Microsoft Entra ID",
+            "Assign an Azure role for access to blob data",
+            "Security recommendations for Blob storage",
+            "Authorize SSH File Transfer Protocol (SFTP) access to blobs using Microsoft Entra ID",
+            "Use .NET to manage ACLs in Azure Data Lake Storage"
+          ],
+          "latency_ms": 62.838499899953604
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-dotnet",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-data-operations-portal",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-python",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-java"
+          ],
+          "retrieved_titles": [
+            "Authorize access to blobs by using Microsoft Entra ID",
+            "Use .NET to manage ACLs in Azure Data Lake Storage",
+            "Choose how to authorize access to blob data in the Azure portal",
+            "Use Python to manage ACLs in Azure Data Lake Storage",
+            "Use Java to manage ACLs in Azure Data Lake Storage"
+          ],
+          "latency_ms": 214.46712501347065
+        }
+      }
+    },
+    {
+      "id": "storage_05",
+      "category": "azure-storage",
+      "query": "In Azure Data Lake Storage, how do ACLs determine access to files and directories, and what role does hierarchical namespace play in organizing those resources?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control-model",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.6666666666666666,
+          "reciprocal_rank": 0.25,
+          "relevant_found": 2,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-azure-portal",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-explorer-acl",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-known-issues",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control-model",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control"
+          ],
+          "retrieved_titles": [
+            "Use the Azure portal to manage ACLs in Azure Data Lake Storage",
+            "Use Azure Storage Explorer to manage ACLs in Azure Data Lake Storage",
+            "Known issues with Azure Data Lake Storage",
+            "Access control model in Azure Data Lake Storage",
+            "Access control lists (ACLs) in Azure Data Lake Storage"
+          ],
+          "latency_ms": 25.546709075570107
+        },
+        "hybrid": {
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0.0,
+          "relevant_found": 0,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-explorer-acl",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-azure-portal",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-cli",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-dotnet"
+          ],
+          "retrieved_titles": [
+            "Manage directories and files in Azure Data Lake Storage with PowerShell",
+            "Use Azure Storage Explorer to manage ACLs in Azure Data Lake Storage",
+            "Use the Azure portal to manage ACLs in Azure Data Lake Storage",
+            "Use Azure CLI to manage ACLs in Azure Data Lake Storage",
+            "Use .NET to manage directories and files in Azure Data Lake Storage"
+          ],
+          "latency_ms": 63.753165770322084
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 1,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-java",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control-model",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-python",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell"
+          ],
+          "retrieved_titles": [
+            "Use Java to manage directories and files in Azure Data Lake Storage",
+            "Access control model in Azure Data Lake Storage",
+            "Best practices for using Azure Data Lake Storage",
+            "Use Python to manage directories and files in Azure Data Lake Storage",
+            "Manage directories and files in Azure Data Lake Storage with PowerShell"
+          ],
+          "latency_ms": 244.44895796477795
+        }
+      }
+    },
+    {
+      "id": "compute_01",
+      "category": "azure-compute",
+      "query": "Where can I configure environment variables and application settings for an Azure Functions app?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.2,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings"
+          ],
+          "retrieved_titles": [
+            "Manage your function app",
+            "Azure Functions developer reference guide for Python apps",
+            "Develop Azure Functions by using Visual Studio Code",
+            "Develop Azure Functions using Visual Studio",
+            "App settings reference for Azure Functions"
+          ],
+          "latency_ms": 30.03745898604393
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local"
+          ],
+          "retrieved_titles": [
+            "Develop Azure Functions by using Visual Studio Code",
+            "Azure Functions developer reference guide for Python apps",
+            "App settings reference for Azure Functions",
+            "Manage your function app",
+            "Develop Azure Functions locally by using Core Tools"
+          ],
+          "latency_ms": 49.85279217362404
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.2,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-node",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/opentelemetry-howto",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings"
+          ],
+          "retrieved_titles": [
+            "Azure Functions developer reference guide for Python apps",
+            "Azure Functions Node.js developer reference",
+            "Use OpenTelemetry with Azure Functions",
+            "Manage your function app",
+            "App settings reference for Azure Functions"
+          ],
+          "latency_ms": 250.536875333637
+        }
+      }
+    },
+    {
+      "id": "compute_02",
+      "category": "azure-compute",
+      "query": "How can I trigger an Azure Function when a new blob is added to Azure Blob Storage?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger",
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-input",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scenarios"
+          ],
+          "retrieved_titles": [
+            "Azure Blob storage trigger for Azure Functions",
+            "Storage considerations for Azure Functions",
+            "Azure Blob storage input binding for Azure Functions",
+            "Azure Blob storage bindings for Azure Functions overview",
+            "Azure Functions scenarios"
+          ],
+          "latency_ms": 38.65762474015355
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scenarios",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings"
+          ],
+          "retrieved_titles": [
+            "Storage considerations for Azure Functions",
+            "Azure Blob storage trigger for Azure Functions",
+            "Azure Functions scenarios",
+            "Azure Blob storage bindings for Azure Functions overview",
+            "Azure Functions triggers and bindings"
+          ],
+          "latency_ms": 52.17512510716915
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scenarios",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/blob-upload-function-trigger",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings"
+          ],
+          "retrieved_titles": [
+            "Azure Blob storage trigger for Azure Functions",
+            "Storage considerations for Azure Functions",
+            "Azure Functions scenarios",
+            "Tutorial: Upload and analyze a file with Azure Functions and Blob Storage",
+            "Azure Functions triggers and bindings"
+          ],
+          "latency_ms": 351.0307092219591
+        }
+      }
+    },
+    {
+      "id": "compute_03",
+      "category": "azure-compute",
+      "query": "How do Python developers use agent bindings in Azure Functions?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-agent-bindings"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-agent-bindings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-ai-enabled-apps",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-hubs-trigger"
+          ],
+          "retrieved_titles": [
+            "Agent bindings for Python in Azure Functions",
+            "Azure Functions developer reference guide for Python apps",
+            "Use AI tools and models in Azure Functions",
+            "Azure Functions HTTP trigger",
+            "Azure Event Hubs trigger for Azure Functions"
+          ],
+          "latency_ms": 26.522499974817038
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-agent-bindings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-ai-enabled-apps",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger"
+          ],
+          "retrieved_titles": [
+            "Agent bindings for Python in Azure Functions",
+            "Azure Functions developer reference guide for Python apps",
+            "Use AI tools and models in Azure Functions",
+            "Azure Functions triggers and bindings",
+            "Azure Functions HTTP trigger"
+          ],
+          "latency_ms": 50.456250086426735
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-ai-enabled-apps",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-agent-bindings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger"
+          ],
+          "retrieved_titles": [
+            "Use AI tools and models in Azure Functions",
+            "Agent bindings for Python in Azure Functions",
+            "Azure Functions developer reference guide for Python apps",
+            "Azure Functions triggers and bindings",
+            "Azure Functions HTTP trigger"
+          ],
+          "latency_ms": 392.8245003335178
+        }
+      }
+    },
+    {
+      "id": "compute_04",
+      "category": "azure-compute",
+      "query": "How can I deploy Azure Functions infrastructure automatically using infrastructure as code?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code",
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-cli-samples"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/migration/migrate-aws-lambda-to-azure-functions",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/deployment-zip-push",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-resource-manager",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/dotnet-isolated-process-guide"
+          ],
+          "retrieved_titles": [
+            "Automate resource deployment for your function app in Azure Functions",
+            "Migrate AWS Lambda workloads to Azure Functions",
+            "Package-based deployment for Azure Functions",
+            "Quickstart: Create and deploy Azure Functions resources from an ARM template",
+            "Guide for running C# Azure Functions in the isolated worker model"
+          ],
+          "latency_ms": 26.003041304647923
+        },
+        "hybrid": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/migration/migrate-aws-lambda-to-azure-functions",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-best-practices",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/deployment-zip-push"
+          ],
+          "retrieved_titles": [
+            "Automate resource deployment for your function app in Azure Functions",
+            "Migrate AWS Lambda workloads to Azure Functions",
+            "Deploy to Azure Functions by using GitHub Actions",
+            "Azure operational security best practices",
+            "Package-based deployment for Azure Functions"
+          ],
+          "latency_ms": 51.88795831054449
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/migration/migrate-aws-lambda-to-azure-functions",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-resource-manager",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment"
+          ],
+          "retrieved_titles": [
+            "Automate resource deployment for your function app in Azure Functions",
+            "Deploy to Azure Functions by using GitHub Actions",
+            "Migrate AWS Lambda workloads to Azure Functions",
+            "Quickstart: Create and deploy Azure Functions resources from an ARM template",
+            "Continuous deployment for Azure Functions"
+          ],
+          "latency_ms": 241.9776669703424
+        }
+      }
+    },
+    {
+      "id": "compute_05",
+      "category": "azure-compute",
+      "query": "Can Azure Functions run on Azure Container Apps, and how does that hosting option work?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-container-apps-hosting"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.25,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-custom-container",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-networking-options",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/container-concepts",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-container-apps-hosting",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale"
+          ],
+          "retrieved_titles": [
+            "Work with containers and Azure Functions",
+            "Azure Functions networking options",
+            "Linux container support in Azure Functions",
+            "Azure Container Apps hosting of Azure Functions",
+            "Azure Functions hosting options"
+          ],
+          "latency_ms": 22.46000012382865
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-custom-container",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/container-concepts",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-container-apps-hosting",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
+          ],
+          "retrieved_titles": [
+            "Work with containers and Azure Functions",
+            "Linux container support in Azure Functions",
+            "Azure Container Apps hosting of Azure Functions",
+            "Azure Functions hosting options",
+            "What is Azure Functions?"
+          ],
+          "latency_ms": 49.68729196116328
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-functions/container-concepts",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-container-apps-hosting",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-custom-container",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-kubernetes-keda",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale"
+          ],
+          "retrieved_titles": [
+            "Linux container support in Azure Functions",
+            "Azure Container Apps hosting of Azure Functions",
+            "Work with containers and Azure Functions",
+            "Azure Functions on Kubernetes with KEDA",
+            "Azure Functions hosting options"
+          ],
+          "latency_ms": 253.1048757955432
+        }
+      }
+    },
+    {
+      "id": "database_01",
+      "category": "azure-database",
+      "query": "How does active geo-replication support disaster recovery and failover for Azure SQL Database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale-replicas",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-disaster-recovery-checklist",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db"
+          ],
+          "retrieved_titles": [
+            "Active geo-replication",
+            "Hyperscale secondary replicas",
+            "Business continuity in Azure SQL Database",
+            "High availability and disaster recovery checklist - Azure SQL Database",
+            "Failover groups overview & best practices (Azure SQL Database)"
+          ],
+          "latency_ms": 25.51062498241663
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance"
+          ],
+          "retrieved_titles": [
+            "Active geo-replication",
+            "Business continuity in Azure SQL Database",
+            "Elastic pools help you manage and scale multiple databases in Azure SQL Database",
+            "Failover groups overview & best practices (Azure SQL Database)",
+            "Disaster recovery guidance - Azure SQL Database"
+          ],
+          "latency_ms": 59.033042285591364
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-disaster-recovery-checklist",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview"
+          ],
+          "retrieved_titles": [
+            "Active geo-replication",
+            "Business continuity in Azure SQL Database",
+            "Failover groups overview & best practices (Azure SQL Database)",
+            "High availability and disaster recovery checklist - Azure SQL Database",
+            "Elastic pools help you manage and scale multiple databases in Azure SQL Database"
+          ],
+          "latency_ms": 299.83991757035255
+        }
+      }
+    },
+    {
+      "id": "database_02",
+      "category": "azure-database",
+      "query": "How are automated backups handled in Azure SQL Database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview"
+          ],
+          "retrieved_titles": [
+            "Automated backups in Azure SQL Database",
+            "What is Azure SQL Database?",
+            "What is SQL Server on Azure Windows Virtual Machines?",
+            "Business continuity in Azure SQL Database",
+            "What is Azure SQL Managed Instance?"
+          ],
+          "latency_ms": 23.558167275041342
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/modernization",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-prepare"
+          ],
+          "retrieved_titles": [
+            "Automated backups in Azure SQL Database",
+            "What is Azure SQL Database?",
+            "Restore a database from a backup in Azure SQL Database",
+            "Migrate SQL Server workloads (FAQ)",
+            "Prepare for a ransomware attack"
+          ],
+          "latency_ms": 44.1834582015872
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 1,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/modernization",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/glossary-terms"
+          ],
+          "retrieved_titles": [
+            "Automated backups in Azure SQL Database",
+            "Migrate SQL Server workloads (FAQ)",
+            "Automate management with the Windows SQL Server IaaS Agent extension",
+            "Restore a database from a backup in Azure SQL Database",
+            "Azure SQL glossary of terms"
+          ],
+          "latency_ms": 250.66545791924
+        }
+      }
+    },
+    {
+      "id": "database_03",
+      "category": "azure-database",
+      "query": "How can I connect to Azure SQL Database through a private endpoint using Azure Private Link?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-manage",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/design-first-database-csharp-tutorial",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connectivity-settings"
+          ],
+          "retrieved_titles": [
+            "Azure Private Link for Azure SQL Database",
+            "Azure Private Link for Azure SQL Managed Instance",
+            "Create and configure a watcher (preview)",
+            "Tutorial: Design a relational database in Azure SQL Database C# and ADO.NET",
+            "Connectivity settings"
+          ],
+          "latency_ms": 24.109791964292526
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-manage",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/connectivity-architecture-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-overview"
+          ],
+          "retrieved_titles": [
+            "Azure Private Link for Azure SQL Database",
+            "Azure Private Link for Azure SQL Managed Instance",
+            "Create and configure a watcher (preview)",
+            "Connectivity architecture for Azure SQL Managed Instance",
+            "Monitor Azure SQL workloads with database watcher (preview)"
+          ],
+          "latency_ms": 60.059667099267244
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/connectivity-architecture-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database-watcher-overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview"
+          ],
+          "retrieved_titles": [
+            "Azure Private Link for Azure SQL Database",
+            "Azure Private Link for Azure SQL Managed Instance",
+            "Connectivity architecture for Azure SQL Managed Instance",
+            "Monitor Azure SQL workloads with database watcher (preview)",
+            "Introduction to Azure security"
+          ],
+          "latency_ms": 265.9614169970155
+        }
+      }
+    },
+    {
+      "id": "database_04",
+      "category": "azure-database",
+      "query": "How do I create and manage logins and authorize users to access an Azure SQL database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure"
+          ],
+          "retrieved_titles": [
+            "Authorize database access to Azure SQL Database",
+            "Quickstart: Use the Azure portal query editor to query Azure SQL Database",
+            "Microsoft Entra authentication for Azure SQL",
+            "Azure SQL Database IP firewall rules",
+            "Configure and manage Microsoft Entra authentication with Azure SQL"
+          ],
+          "latency_ms": 24.435958359390497
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure"
+          ],
+          "retrieved_titles": [
+            "Authorize database access to Azure SQL Database",
+            "Quickstart: Use the Azure portal query editor to query Azure SQL Database",
+            "An overview of Azure SQL Database and SQL Managed Instance security capabilities",
+            "Microsoft Entra authentication for Azure SQL",
+            "Configure and manage Microsoft Entra authentication with Azure SQL"
+          ],
+          "latency_ms": 64.43666713312268
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/transact-sql-tsql-differences-sql-server",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-manage",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/develop-overview"
+          ],
+          "retrieved_titles": [
+            "Authorize database access to Azure SQL Database",
+            "T-SQL differences between SQL Server and Azure SQL Database",
+            "An overview of Azure SQL Database and SQL Managed Instance security capabilities",
+            "Create and manage servers and single databases in Azure SQL Database",
+            "Application development overview - Azure SQL Database & Azure SQL Managed Instance"
+          ],
+          "latency_ms": 246.90387630835176
+        }
+      }
+    },
+    {
+      "id": "database_05",
+      "category": "azure-database",
+      "query": "How can I run SQL queries in the Azure portal without using a separate SQL client?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/query-editor",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-content-reference-guide"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/query-editor",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/design-first-database-tutorial",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-ssms",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-go"
+          ],
+          "retrieved_titles": [
+            "Azure portal query editor for Azure SQL Database",
+            "Quickstart: Use the Azure portal query editor to query Azure SQL Database",
+            "Tutorial: Design a relational database in Azure SQL Database",
+            "Quickstart: Use SSMS to connect to and query Azure SQL Database or Azure SQL Managed Instance",
+            "Quickstart: Use Golang to query a database in Azure SQL Database or Azure SQL Managed Instance"
+          ],
+          "latency_ms": 23.68862507864833
+        },
+        "hybrid": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/query-editor",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-ssms",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/doc-changes-updates-release-notes-whats-new",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/design-first-database-tutorial"
+          ],
+          "retrieved_titles": [
+            "Azure portal query editor for Azure SQL Database",
+            "Quickstart: Use the Azure portal query editor to query Azure SQL Database",
+            "Quickstart: Use SSMS to connect to and query Azure SQL Database or Azure SQL Managed Instance",
+            "What's new in Azure SQL Database?",
+            "Tutorial: Design a relational database in Azure SQL Database"
+          ],
+          "latency_ms": 63.791084103286266
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/query-editor",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-ssms",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/design-first-database-tutorial",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/hyperscale-database-create-quickstart"
+          ],
+          "retrieved_titles": [
+            "Quickstart: Use the Azure portal query editor to query Azure SQL Database",
+            "Azure portal query editor for Azure SQL Database",
+            "Quickstart: Use SSMS to connect to and query Azure SQL Database or Azure SQL Managed Instance",
+            "Tutorial: Design a relational database in Azure SQL Database",
+            "Quickstart: Create a Hyperscale database in Azure SQL Database"
+          ],
+          "latency_ms": 294.6992921642959
+        }
+      }
+    },
+    {
+      "id": "security_01",
+      "category": "azure-security",
+      "query": "How is data encrypted at rest in Azure, and what encryption options are available?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-models",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/isolation-choices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data"
+          ],
+          "retrieved_titles": [
+            "Azure data encryption at rest",
+            "Azure encryption overview",
+            "Data encryption models",
+            "Isolation in the Azure public cloud",
+            "Azure customer data protection"
+          ],
+          "latency_ms": 28.812834061682224
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/isolation-choices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-models"
+          ],
+          "retrieved_titles": [
+            "Azure encryption overview",
+            "Azure data encryption at rest",
+            "Isolation in the Azure public cloud",
+            "Security services and technologies in Azure",
+            "Data encryption models"
+          ],
+          "latency_ms": 60.583540704101324
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-models",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/isolation-choices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/virtual-machines-overview"
+          ],
+          "retrieved_titles": [
+            "Azure encryption overview",
+            "Azure data encryption at rest",
+            "Data encryption models",
+            "Isolation in the Azure public cloud",
+            "Azure Virtual Machines security overview"
+          ],
+          "latency_ms": 261.870582588017
+        }
+      }
+    },
+    {
+      "id": "security_02",
+      "category": "azure-security",
+      "query": "What are the recommended practices for managing identities and controlling access in Azure?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies"
+          ],
+          "retrieved_titles": [
+            "Azure identity management and access control best practices",
+            "Introduction to Azure security",
+            "Best practices for protecting secrets",
+            "Securing PaaS deployments",
+            "Security services and technologies in Azure"
+          ],
+          "latency_ms": 23.366792127490044
+        },
+        "hybrid": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-overview"
+          ],
+          "retrieved_titles": [
+            "Introduction to Azure security",
+            "Best practices for protecting secrets",
+            "Azure identity management and access control best practices",
+            "Securing PaaS deployments",
+            "Microsoft Entra authentication for Azure SQL"
+          ],
+          "latency_ms": 46.35983286425471
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies"
+          ],
+          "retrieved_titles": [
+            "Azure identity management and access control best practices",
+            "Introduction to Azure security",
+            "Best practices for protecting secrets",
+            "Securing PaaS deployments",
+            "Security services and technologies in Azure"
+          ],
+          "latency_ms": 242.74762393906713
+        }
+      }
+    },
+    {
+      "id": "security_03",
+      "category": "azure-security",
+      "query": "How does Microsoft Defender for Cloud detect and protect against threats targeting AI workloads?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-threat-protection",
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-ai-workloads",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.3333333333333333,
+          "reciprocal_rank": 0.25,
+          "relevant_found": 1,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-onboarding",
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-security-posture",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/threat-detection",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-features-resources"
+          ],
+          "retrieved_titles": [
+            "Enable threat protection for AI services",
+            "Overview - AI security posture management",
+            "Azure threat protection",
+            "Azure AI security best practices",
+            "Azure ransomware protection features and resources"
+          ],
+          "latency_ms": 22.79695775359869
+        },
+        "hybrid": {
+          "recall_at_5": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 1,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-security-posture",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/threat-detection",
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-onboarding",
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction"
+          ],
+          "retrieved_titles": [
+            "Overview - AI security posture management",
+            "Azure AI security best practices",
+            "Azure threat protection",
+            "Enable threat protection for AI services",
+            "What is Microsoft Defender for Cloud?"
+          ],
+          "latency_ms": 42.74145932868123
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 2,
+          "relevant_total": 3,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-threat-protection",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/threat-detection",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-features-resources",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices",
+            "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-onboarding"
+          ],
+          "retrieved_titles": [
+            "AI threat protection in Microsoft Defender for Cloud",
+            "Azure threat protection",
+            "Azure ransomware protection features and resources",
+            "Azure AI security best practices",
+            "Enable threat protection for AI services"
+          ],
+          "latency_ms": 256.08325144276023
+        }
+      }
+    },
+    {
+      "id": "security_04",
+      "category": "azure-security",
+      "query": "How does Azure protect customer data and define responsibility for securing that data?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.2,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/copilot/copilot-azure-sql-faq",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data"
+          ],
+          "retrieved_titles": [
+            "Azure data security and encryption best practices",
+            "Azure data encryption at rest",
+            "Introduction to Azure security",
+            "Frequently asked questions about Microsoft Copilot in Azure with Azure SQL Database",
+            "Azure customer data protection"
+          ],
+          "latency_ms": 19.313833210617304
+        },
+        "hybrid": {
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0.0,
+          "relevant_found": 0,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/copilot/copilot-azure-sql-faq",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-overview",
+            "https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts"
+          ],
+          "retrieved_titles": [
+            "Introduction to Azure security",
+            "Frequently asked questions about Microsoft Copilot in Azure with Azure SQL Database",
+            "Zero Trust security in Azure",
+            "Customer Lockbox for Microsoft Azure",
+            "Securing Azure Functions"
+          ],
+          "latency_ms": 48.60854195430875
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest"
+          ],
+          "retrieved_titles": [
+            "Azure customer data protection",
+            "Azure data security and encryption best practices",
+            "Zero Trust security in Azure",
+            "Introduction to Azure security",
+            "Azure data encryption at rest"
+          ],
+          "latency_ms": 234.31424982845783
+        }
+      }
+    },
+    {
+      "id": "security_05",
+      "category": "azure-security",
+      "query": "What security controls should I check when securing an Azure SQL database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview"
+      ],
+      "methods": {
+        "dense": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-sql",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist"
+          ],
+          "retrieved_titles": [
+            "Azure database security checklist",
+            "Best practices for securing PaaS databases in Azure",
+            "What is Azure SQL Database?",
+            "Security services and technologies in Azure",
+            "Checklist: Best practices for SQL Server on Azure VMs"
+          ],
+          "latency_ms": 20.09225031360984
+        },
+        "hybrid": {
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "relevant_found": 2,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-sql",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-sql",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments"
+          ],
+          "retrieved_titles": [
+            "Best practices for securing PaaS databases in Azure",
+            "Azure database security checklist",
+            "An overview of Azure SQL Database and SQL Managed Instance security capabilities",
+            "Azure SQL Database security features",
+            "Securing PaaS deployments"
+          ],
+          "latency_ms": 50.934750121086836
+        },
+        "hybrid_reranked": {
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 1.0,
+          "relevant_found": 1,
+          "relevant_total": 2,
+          "retrieved_urls": [
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-sql",
+            "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist",
+            "https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-integrity"
+          ],
+          "retrieved_titles": [
+            "Azure database security checklist",
+            "Security services and technologies in Azure",
+            "Azure SQL Database security features",
+            "Checklist: Best practices for SQL Server on Azure VMs",
+            "Azure infrastructure integrity"
+          ],
+          "latency_ms": 254.7838748432696
+        }
+      }
+    }
+  ]
+}

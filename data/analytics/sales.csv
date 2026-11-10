@@ -1,0 +1,12 @@
+
+order_id,region,product,category,quantity,unit_price
+1001,North,Laptop,Electronics,2,75000
+1002,South,Phone,Electronics,5,25000
+1003,East,Desk,Furniture,3,12000
+1004,West,Chair,Furniture,10,4500
+1005,North,Phone,Electronics,4,25000
+1006,South,Laptop,Electronics,1,75000
+1007,East,Chair,Furniture,6,4500
+1008,West,Desk,Furniture,2,12000
+1009,North,Monitor,Electronics,3,18000
+1010,South,Chair,Furniture,8,4500

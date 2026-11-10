@@ -1,0 +1,182 @@
+
+[
+    {
+      "id": "storage_01",
+      "category": "azure-storage",
+      "query": "How can I reduce Azure Blob Storage costs by moving infrequently accessed data to cheaper tiers?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview"
+      ]
+    },
+    {
+      "id": "storage_02",
+      "category": "azure-storage",
+      "query": "How do I automatically move blobs to another access tier based on their age?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-structure"
+      ]
+    },
+    {
+      "id": "storage_03",
+      "category": "azure-storage",
+      "query": "How can I archive a blob and later restore it for access?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-blob",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview"
+      ]
+    },
+    {
+      "id": "storage_04",
+      "category": "azure-storage",
+      "query": "How can an application authenticate with Microsoft Entra ID and obtain permission to access blob data?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/authorize-access-azure-active-directory",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access"
+      ]
+    },
+    {
+        "id": "storage_05",
+        "category": "azure-storage",
+        "query": "In Azure Data Lake Storage, how do ACLs determine access to files and directories, and what role does hierarchical namespace play in organizing those resources?",
+        "relevant_urls": [
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control-model",
+            "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace"
+        ]
+    },
+    {
+      "id": "compute_01",
+      "category": "azure-compute",
+      "query": "Where can I configure environment variables and application settings for an Azure Functions app?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings"
+      ]
+    },
+    {
+      "id": "compute_02",
+      "category": "azure-compute",
+      "query": "How can I trigger an Azure Function when a new blob is added to Azure Blob Storage?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger",
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob"
+      ]
+    },
+    {
+      "id": "compute_03",
+      "category": "azure-compute",
+      "query": "How do Python developers use agent bindings in Azure Functions?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-agent-bindings"
+      ]
+    },
+    {
+      "id": "compute_04",
+      "category": "azure-compute",
+      "query": "How can I deploy Azure Functions infrastructure automatically using infrastructure as code?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code",
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-cli-samples"
+      ]
+    },
+    {
+      "id": "compute_05",
+      "category": "azure-compute",
+      "query": "Can Azure Functions run on Azure Container Apps, and how does that hosting option work?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-container-apps-hosting"
+      ]
+    },
+    {
+      "id": "database_01",
+      "category": "azure-database",
+      "query": "How does active geo-replication support disaster recovery and failover for Azure SQL Database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db"
+      ]
+    },
+    {
+      "id": "database_02",
+      "category": "azure-database",
+      "query": "How are automated backups handled in Azure SQL Database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview"
+      ]
+    },
+    {
+      "id": "database_03",
+      "category": "azure-database",
+      "query": "How can I connect to Azure SQL Database through a private endpoint using Azure Private Link?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview"
+      ]
+    },
+    {
+      "id": "database_04",
+      "category": "azure-database",
+      "query": "How do I create and manage logins and authorize users to access an Azure SQL database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview"
+      ]
+    },
+    {
+      "id": "database_05",
+      "category": "azure-database",
+      "query": "How can I run SQL queries in the Azure portal without using a separate SQL client?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/query-editor",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-content-reference-guide"
+      ]
+    },
+    {
+      "id": "security_01",
+      "category": "azure-security",
+      "query": "How is data encrypted at rest in Azure, and what encryption options are available?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview"
+      ]
+    },
+    {
+      "id": "security_02",
+      "category": "azure-security",
+      "query": "What are the recommended practices for managing identities and controlling access in Azure?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview"
+      ]
+    },
+    {
+      "id": "security_03",
+      "category": "azure-security",
+      "query": "How does Microsoft Defender for Cloud detect and protect against threats targeting AI workloads?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-threat-protection",
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-ai-workloads",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices"
+      ]
+    },
+    {
+      "id": "security_04",
+      "category": "azure-security",
+      "query": "How does Azure protect customer data and define responsibility for securing that data?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility"
+      ]
+    },
+    {
+      "id": "security_05",
+      "category": "azure-security",
+      "query": "What security controls should I check when securing an Azure SQL database?",
+      "relevant_urls": [
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist",
+        "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview"
+      ]
+    }
+  ]
